@@ -318,7 +318,8 @@ spec:
         "kubernetes.io/os": linux
       containers:
         - name: product-service
-          image: arpitk3110/product-service-l8:latest # Custom product service image
+          image: arpitk3110/product-service-l8:v4 # Custom product service image
+          imagePullPolicy: Always # Always pull the latest image
           ports:
             - containerPort: 3002 # Product service listens on this port
           env: # Environment variables for configuration
@@ -450,7 +451,8 @@ spec:
         "kubernetes.io/os": linux
       containers:
         - name: store-admin
-          image: arpitk3110/store-admin-l8:latest # Admin interface for store
+          image: arpitk3110/store-admin-l8:v2 # Admin interface for store
+          imagePullPolicy: Always # Always pull the latest image
           ports:
             - containerPort: 8081 # Admin app port
               name: store-admin
