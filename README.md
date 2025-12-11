@@ -173,3 +173,16 @@ To update a microservice (example: product-service):
  * Update image tag in Kubernetes YAML
 
  * Apply YAML again
+
+ ## 🔗 Links Table
+
+| Microservice         | GitHub Repository Link                                    | Docker Hub Image Link                                      |
+|----------------------|------------------------------------------------------------|-------------------------------------------------------------|
+| store-front          | https://github.com/arpitk3110/store-front-L8              | https://hub.docker.com/r/arpitk3110/store-front-l8         |
+| store-admin          | https://github.com/arpitk3110/store-admin-L8              | https://hub.docker.com/r/arpitk3110/store-admin-l8         |
+| product-service      | https://github.com/arpitk3110/product-service-L8          | https://hub.docker.com/r/arpitk3110/product-service-l8     |
+| order-service        | https://github.com/arpitk3110/order-service-L8            | https://hub.docker.com/r/arpitk3110/order-service-l8       |
+| makeline-service     | https://github.com/arpitk3110/makeline-service-L8         | https://hub.docker.com/r/arpitk3110/makeline-service-l8    |
+| Deployment Files     | https://github.com/arpitk3110/CST8915_Final_Project_Deployment     | *(No Docker image)*                                         |
+
+    
