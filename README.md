@@ -1,3 +1,13 @@
+### Best Buy Cloud-Native Microservices Application
+### Developed by: Arpit Patel
+### Course: CST8915 – Full-stack Cloud-Native Development
+
+
+
+
+### Youtube video link : https://youtu.be/WJcRNEvttzQ 
+
+
 **Updated Architecture Diagram**
 
 ![alt text](<full stack.png>)
@@ -185,4 +195,3 @@ To update a microservice (example: product-service):
 | makeline-service     | https://github.com/arpitk3110/makeline-service-L8         | https://hub.docker.com/r/arpitk3110/makeline-service-l8    |
 | Deployment Files     | https://github.com/arpitk3110/CST8915_Final_Project_Deployment     | *(No Docker image)*                                         |
 
-    
